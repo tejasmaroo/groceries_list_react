@@ -31,7 +31,7 @@ function App() {
   }
 
   const handleDelete = (id) => {
-    const listItems = items.filter((item) => item.id != id);
+    const listItems = items.filter((item) => item.id !== id);
     setAndSave(listItems)
   }
 
